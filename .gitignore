@@ -1,0 +1,18 @@
+# Claude Code (local only, not committed)
+.claude/
+CLAUDE.md
+
+# Node modules
+node_modules/
+
+# Env files (commit .env.example only)
+.env
+.env.*
+!.env.example
+
+# Dead letter output
+dead-letter/
+
+# Test / tooling output
+coverage/
+*.log

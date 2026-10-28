@@ -1,0 +1,23 @@
+{
+  "name": "mqtt-twin-bridge",
+  "version": "0.1.0",
+  "description": "MQTT to digital-twin bridge: source -> transform -> sink pipeline for building sensor data",
+  "private": true,
+  "type": "module",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mqtt",
+    "iot",
+    "digital-twin",
+    "bms"
+  ],
+  "author": "Fabio Leardini",
+  "license": "UNLICENSED"
+}
